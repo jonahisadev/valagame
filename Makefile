@@ -3,7 +3,7 @@ PKG = --pkg=gtk+-3.0
 SRC = $(wildcard src/*.vala)
 EXEC = game
 
-all: $(EXEC) $(SRC)
+all: $(EXEC)
 
 $(EXEC):
 	$(CC) $(PKG) $(SRC)
